@@ -18,7 +18,7 @@ class Model():
         self.Y = np.array(Y)
 
         np.random.seed(1)
-        self.weights = 2 * np.random.random(4) - 1
+        self.weights = 2 * np.random.random(X[0]) - 1
 
     def train(self, epoch=1, alpha=1.):
 
